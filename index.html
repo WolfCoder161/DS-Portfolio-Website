@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Science Portfolio - Zev Kaplan</title>
+  <style>
+    * {
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #1e1e2f;
+      display: inline-block;
+    }
+
+    .project {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #1e1e2f;
+    }
+
+    .project a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .project a:hover h3 {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .project a:hover h3::after {
+      content: ' \1F517'; /* Unicode for link symbol */
+      font-size: 0.9em;
+      margin-left: 4px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .skill {
+      background: #1e1e2f;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #1e1e2f;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    .scroll-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #1e1e2f;
+      color: white;
+      padding: 0.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zev Kaplan</h1>
+    <p>Data Scientist | Software Engineer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a data scientist with a passion for turning data into actionable insights and applications. With a background in Software Engineering, and machine learning, I specialize in building predictive models and complex applications.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <a href="https://github.com/WolfCoder161/DS-Portfolio/tree/784fb81779f4c1a4fd0041debb4b5b95ce6d1da5/Project%201%20-%20Netflix%20Best%20Titles" target="_blank"><h3>Netflix Best Titles</h3></a>
+      <p>The purpose of this project is to create a presentation to secure stakeholder approval for specific investments in content development. By analyzing top-performing movies and TV shows, we recommend producing a sequel to Red Notice and developing either a new season of Stranger Things or a new TV show incorporating successful elements of the high-performing TV Shows. The call to action is clear: allocate resources to these initiatives to maintain and progress Netflix's competitive edge in the streaming industry.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/WolfCoder161/DS-Portfolio/tree/784fb81779f4c1a4fd0041debb4b5b95ce6d1da5/Project%202%20-%20Netflix%20Normalized%20Success%20Score" target="_blank"><h3>Netflix - Introduction of a Singular Metric for Performance</h3></a>
+      <p>Streaming platforms, such as Netflix, depend on data-driven decisions to enhance viewership and engagement on their platforms. With ever-increasing competition, the challenge lies in predicting which movie or TV show will capture audience interest. This analysis aims to create a Machine Learning (ML) model that can predict movie and TV Show performance based on its metrics. The analysis will also aim to define a singular metric that can be used to assess a movie’s and TV show’s performance.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/WolfCoder161/DS-Portfolio/tree/784fb81779f4c1a4fd0041debb4b5b95ce6d1da5/Project%203%20-%20Sleep%20and%20GPA" target="_blank"><h3>Sleep and GPA</h3></a>
+      <p>An exploration of the hidden relationship between sleep and Student GPAs.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/WolfCoder161/DS-Portfolio/tree/784fb81779f4c1a4fd0041debb4b5b95ce6d1da5/Project%204%20-%20Movie%20Recommender" target="_blank"><h3>Movie Recommender</h3></a>
+      <p>A TF-IDF based movie recommender using the IMBd database.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/WolfCoder161/DS-Portfolio/tree/784fb81779f4c1a4fd0041debb4b5b95ce6d1da5/Project%205%20-%20Analysis%20of%20PCOS" target="_blank"><h3>Introductory Framework for DS Analysis of PCOS</h3></a>
+      <p>Polycystic Ovary Syndrome (PCOS) is a common hormonal disorder in women that can lead to or be a part of various health issues, such as infertility, diabetes, and cardiovascular diseases. Despite its prevalence, the exact causes and patters associated with PCOS remain unclear. Healthcare providers are interested in identifying patterns in patient data that could help predict PCOS diagnosis, progression, or outcomes such as infertility or other health complications. The goal is to help medical providers and patients understand the risk factors better, hopefully leading to more targeted treatment and early intervention.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/WolfCoder161/DS-Portfolio/tree/784fb81779f4c1a4fd0041debb4b5b95ce6d1da5/Project%206%20-%20Car%20Thefts" target="_blank"><h3>Car Theft Analysis</h3></a>
+      <p>Analysis of car theft trends.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/WolfCoder161/DS-Portfolio/tree/784fb81779f4c1a4fd0041debb4b5b95ce6d1da5/Project%207%20%20-%20Maryland%20Childcare%20Affordability" target="_blank"><h3>Maryland Childcare Affordability</h3></a>
+      <p>Analysis of effects of interstate migration on childcare affordability in Maryland. Project includes an interactive streamlit powered dashboard.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/WolfCoder161/DS-Portfolio/tree/784fb81779f4c1a4fd0041debb4b5b95ce6d1da5/Project%208%20-%20Sleep%20Research%20Proposal" target="_blank"><h3>Sleep Research Proposal</h3></a>
+      <p>A very important and often neglected part of health is sleep. Sleep plays many vital roles in human health, including maintaining the nervous system, the cardiovascular system, psychological and neurological function, as well as the immune system, just to name a few. Even though sleep is one of the most important aspects of health, the majority of people, especially those following the modern western society schedules, tend to not know or upkeep their sleep health, which causes direct negative impacts on many bodily systems. Although the importance of sleep is known, there are very few research available on the topic when compared to other areas of medicine. As a result, this paper will explore some sleeping patterns and will attempt to establish useful information regarding sleep and sleep health.</p>
+    </div>
+    <div class="project">
+      <a href="#"><h3>Placeholder Project</h3></a>
+      <p>Description</p>
+    </div>
+    <div class="project">
+      <a href="#"><h3>Placeholder Project</h3></a>
+      <p>Description</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">Python</div>
+      <div class="skill">Pandas</div>
+      <div class="skill">scikit-learn</div>
+      <div class="skill">TensorFlow</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Tableau</div>
+      <div class="skill">Git</div>
+      <div class="skill">Torch</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:zkaplan@my365.bellevue.edu">zkaplan@my365.bellevue.edu</a></p>
+    <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/zev-k/" target="_blank">https://www.linkedin.com/in/zev-k/</a></p>
+    <p>📁 GitHub: <a href="https://github.com/WolfCoder161" target="_blank">https://github.com/WolfCoder161</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Zev Kaplan. All rights reserved.</p>
+  </footer>
+
+  <div class="scroll-top" id="scrollTop">↑ Top</div>
+
+  <script>
+    const scrollTopBtn = document.getElementById('scrollTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) {
+        scrollTopBtn.style.display = 'block';
+      } else {
+        scrollTopBtn.style.display = 'none';
+      }
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
